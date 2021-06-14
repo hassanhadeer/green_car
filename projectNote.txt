@@ -1,0 +1,37 @@
+
+create  the folder in C:\xampp\htdocs\GreenCar
+
+create all the subfolders , assets , css , includes , js , models , views 
+
+create index.php
+  add the php views require to the index (header , main and footer)
+
+create the views files
+  in the header : 
+    1. I add the <?php require('includes/package.php'); ?>
+    2. I opened the html doc , head , body , nav , header
+    3. I linked the app.css and bootstrap in the head 
+
+  in the footer:
+    1. I add the footer 
+    2. all the js script
+    3 closing the body and the html doc
+
+create the nav 
+	the href in the nav will connect with the page.php
+	page.php will require view.php
+
+add the header BKG and style
+
+*** code started *****
+
+we need to add the model files 
+	incloude the model.php in the package.php
+	use the model.php in the view
+
+******************
+create the greencar DB 
+
+********************************
+create the db_model.php and incloude it in the package.php to create the connection with the DB (greencar)and manage the error message
+
